@@ -1,0 +1,28 @@
+h1
+{
+	color: red; 
+    font-size: 40px;
+    font-variant: small-caps;
+}
+.body_backgorund {
+    background-image: url("bg1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#myCanvas {
+border: 10px ridge red;
+background-color: white;
+}
+
+#span_radius {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+#span_width {
+    margin-left: 5px;
+}
+button {
+    width: 100px;
+    height: 30px;
+}
