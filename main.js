@@ -32,8 +32,8 @@ canvas.addEventListener("touchmove",mytouchmove);
 function mytouchmove(e) {
     console.log("my touchmove")
 
-    current_touch_x = e.touches[0].clientX - canvas.offsetLeft;
-    current_touch_y = e.touches[0].clientY - canvas.offsetTop;
+    current_x = e.touches[0].clientX - canvas.offsetLeft;
+    current_y = e.touches[0].clientY - canvas.offsetTop;
 
     ctx.beginPath();
     ctx.strokeStyle = color;
