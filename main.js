@@ -1,6 +1,6 @@
 var last_x , last_y;
 
-canvas = document.getElementById("myCanvas");
+canvas = document.getElementById('myCanvas');
 ctx = canvas.getContext("2d");
 color = "black";
 width = 1;
